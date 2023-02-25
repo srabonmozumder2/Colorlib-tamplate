@@ -76,5 +76,11 @@ $(".my-dropdown").click(function(){
 //    $(".inner").click(function(){
 //     $(".main").slideToggle(300);
 //    });
-
    });
+
+
+
+   $('.counter-testing').counterUp({
+    delay: 5,
+    time: 2000
+});

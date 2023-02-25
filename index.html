@@ -43,7 +43,7 @@
                             </ul>
                         </li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
+                        <li><a href="services.html" target="_blank">Services</a></li>
                         <li><a href="#">Resum</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Contact</a></li>
@@ -323,11 +323,88 @@
                             </div>
                         </div>
 
-                        <div class="my-5">
+                        <div class="my-5 main-modal-area">
                             <p class="buttom">
                                 <a href="#" class="btn btn-success">HIRE ME</a>
-                                <a href="#" class="btn btn-secondary">Download CV</a>
+                                <!-- <a href="#" class="btn btn-secondary">Download CV</a> -->
                             </p>
+
+                            <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Download CV</button>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                      <div id="modal-heading"> 
+                                        <h5 class="modal-title text-center" id="exampleModalLabel">College Enrollment Form</h5>
+                                      </div>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <p class="text-center">Fill out the form carefully for registration</p>
+                                        <div class="modal-body">
+                                            <!-- <div class="emoji">
+                                                <img src="img/preview.webp" alt="">
+                                            </div> -->
+                                            <div class="row">
+                                                <div class="col-lg-4 information-form">
+                                                    <label for="#">Student Name</label>
+                                                    <input class="form-control" type="text">
+                                                </div>
+                                                <div class="col-lg-4 information-form">
+                                                    <label for="#">Middle Name</label>
+                                                    <input class="form-control" type="text">
+                                                </div>
+                                                <div class="col-lg-4 information-form">
+                                                    <label for="#">Last Name</label>
+                                                    <input class="form-control" type="text">
+                                                </div>
+
+                                                <div class="col-lg-6 information-form">
+                                                    <label for="#">Birth Date</label>
+                                                    <input class="form-control" type="date">
+                                                </div>
+                                                <div class="col-lg-6 information-form">
+                                                    <label for="#" >Gender</label>
+                                                    <select name="" id="" class="form-control" >
+                                                        <option placeholder="Selact Option" value="Selact Option">Selact Option</option>
+                                                        <option value="">Male</option>
+                                                        <option value="">Female</option>
+                                                        <option value="">Other</option>
+                                                    </select>
+                                                </div>
+                                                <div class="information-form">
+                                                    <label for="">Address</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <div  class="information-form">
+                                                    <label for="">Street Address</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <div class="col-lg-6 information-form">
+                                                    <label for="">Street Address Line 2</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <div class="col-lg-6 information-form">
+                                                    <label for="">City</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <div  class="information-form">
+                                                    <label for="">State / Province</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+
+                                        
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary">SUBMIT</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -605,226 +682,6 @@
                 </div>
             </div>
         </div>
-
-
-        <!-- <div class="testimonial-area">
-            <div class="container">
-                <div class="testimonial">
-                    <h2 class="text-center mb-5">Product-Slider</h2>
-                    <div class="product-slider owl-carousel">
-                        <div class="product-item">
-                            <div class="product-img">
-                                <img src="img/323780632_1392437828161889_1619602120233883117_n.jpg" alt="">
-                            </div>
-                            <div class="product-tital text-center">
-                                <h2 class="mt-3">SRABON MOZUMDER</h2>
-                                <p>A software engineer is a person who applies the principles of software engineering to design, develop</p>
-                            </div>
-                            <div class="product-parice text-center">
-                                <span>$96.00</span>
-                            </div>
-                            <div class="star text-center">
-                                <span><i class="fab fa-instagram"></i></span>
-                                <span><i class="fab fa-twitter"></i></span>
-                                <span><i class="fab fa-facebook-f"></i></span>
-                                <span><i class="fab fa-linkedin-in"></i></span>
-                                <span><i class="fab fa-pinterest-p"></i></span>
-                            </div>
-                            <div class="buy-button text-center">
-                                <button class="btn btn-info">submit</button>                                
-                            </div>
-                        </div>
-
-                        <div class="product-item">
-                            <div class="product-img">
-                                <img src="img/324842758_1170288643862055_5245140946866467528_n.jpg" alt="">
-                            </div>
-                            <div class="product-tital text-center">
-                                <h2 class="mt-3">srabon mozumder</h2>
-                                <p>A software engineer is a person who applies the principles of software engineering to design, develop</p>
-                            </div>
-                            <div class="product-parice text-center">
-                                <span>$90.00</span>
-                            </div>
-                            <div class="star text-center">
-                                <span><i class="fab fa-instagram"></i></span>
-                                <span><i class="fab fa-twitter"></i></span>
-                                <span><i class="fab fa-facebook-f"></i></span>
-                                <span><i class="fab fa-linkedin-in"></i></span>
-                                <span><i class="fab fa-pinterest-p"></i></span>
-                            </div>
-                            <div class="buy-button text-center">
-                                <button class="btn btn-info">submit</button>                                
-                            </div>
-                        </div>
-
-                        <div class="product-item">
-                            <div class="product-img">
-                                <img src="img/325525499_576464537657263_6704482388136256161_n.jpg" alt="">
-                            </div>
-                            <div class="product-tital text-center">
-                                <h2 class="mt-3">srabon mozumder</h2>
-                                <p>A software engineer is a person who applies the principles of software engineering to design, develop</p>
-                            </div>
-                            <div class="product-parice text-center">
-                                <span>$85.00</span>
-                            </div>
-                            <div class="star text-center">
-                                <span><i class="fab fa-instagram"></i></span>
-                                <span><i class="fab fa-twitter"></i></span>
-                                <span><i class="fab fa-facebook-f"></i></span>
-                                <span><i class="fab fa-linkedin-in"></i></span>
-                                <span><i class="fab fa-pinterest-p"></i></span>
-                            </div>
-                            <div class="buy-button text-center">
-                                <button class="btn btn-info">submit</button>                                
-                            </div>
-                        </div>
-
-                        <div class="product-item">
-                            <div class="product-img">
-                                <img src="img/326398542_1268398564018807_5161840311512730808_n.jpg" alt="">
-                            </div>
-                            <div class="product-tital text-center">
-                                <h2 class="mt-3">srabon mozumder</h2>
-                                <p>A software engineer is a person who applies the principles of software engineering to design, develop</p>
-                            </div>
-                            <div class="product-parice text-center">
-                                <span>$70.00</span>
-                            </div>
-                            <div class="star text-center">
-                                <span><i class="fab fa-instagram"></i></span>
-                                <span><i class="fab fa-twitter"></i></span>
-                                <span><i class="fab fa-facebook-f"></i></span>
-                                <span><i class="fab fa-linkedin-in"></i></span>
-                                <span><i class="fab fa-pinterest-p"></i></span>
-                            </div>
-                            <div class="buy-button text-center">
-                                <button class="btn btn-info">ADD TO CART</button>                                
-                            </div>
-                        </div>
-
-                        <div class="product-item">
-                            <div class="product-img">
-                                <img src="img/304812264_156450880320379_287843940580952862_n.jpg" alt="">
-                            </div>
-                            <div class="product-tital text-center">
-                                <h2 class="mt-3">srabon mozumder</h2>
-                                <p>A software engineer is a person who applies the principles of software engineering to design, develop</p>
-                            </div>
-                            <div class="product-parice text-center">
-                                <span>$99.00</span>
-                            </div>
-                            <div class="star text-center">
-                                <span><i class="fab fa-instagram"></i></span>
-                                <span><i class="fab fa-twitter"></i></span>
-                                <span><i class="fab fa-facebook-f"></i></span>
-                                <span><i class="fab fa-linkedin-in"></i></span>
-                                <span><i class="fab fa-pinterest-p"></i></span>
-                            </div>
-                            <div class="buy-button text-center">
-                                <button class="btn btn-info">submit</button>                                
-                            </div>
-                        </div>
-
-                        <div class="product-item">
-                            <div class="product-img">
-                                <img src="img/323773864_1069835141084819_34389915740234536_n.jpg" alt="">
-                            </div>
-                            <div class="product-tital text-center">
-                                <h2 class="mt-3">srabon mozumder</h2>
-                                <p>A software engineer is a person who applies the principles of software engineering to design, develop</p>
-                            </div>
-                            <div class="product-parice text-center">
-                                <span>$109.00</span>
-                            </div>
-                            <div class="star text-center">
-                                <span><i class="fab fa-instagram"></i></span>
-                                <span><i class="fab fa-twitter"></i></span>
-                                <span><i class="fab fa-facebook-f"></i></span>
-                                <span><i class="fab fa-linkedin-in"></i></span>
-                                <span><i class="fab fa-pinterest-p"></i></span>
-                            </div>
-                            <div class="buy-button text-center">
-                                <button class="btn btn-info">submit</button>                                
-                            </div>
-                        </div>
-
-                        <div class="product-item">
-                            <div class="product-img">
-                                <img src="img/287112025_156450900320377_8378048779917543494_n.jpg" alt="">
-                            </div>
-                            <div class="product-tital text-center">
-                                <h2 class="mt-3">srabon mozumder</h2>
-                                <p>A software engineer is a person who applies the principles of software engineering to design, develop</p>
-                            </div>
-                            <div class="product-parice text-center">
-                                <span>$102.00</span>
-                            </div>
-                            <div class="star text-center">
-                                <span><i class="fab fa-instagram"></i></span>
-                                <span><i class="fab fa-twitter"></i></span>
-                                <span><i class="fab fa-facebook-f"></i></span>
-                                <span><i class="fab fa-linkedin-in"></i></span>
-                                <span><i class="fab fa-pinterest-p"></i></span>
-                            </div>
-                            <div class="buy-button text-center">
-                                <button class="btn btn-info">submit</button>                                
-                            </div>
-                        </div>
-
-                        <div class="product-item">
-                            <div class="product-img">
-                                <img src="img/317189465_695370215267537_7281918391108945086_n.jpg" alt="">
-                            </div>
-                            <div class="product-tital text-center">
-                                <h2 class="mt-3">srabon mozumder</h2>
-                                <p>A software engineer is a person who applies the principles of software engineering to design, develop</p>
-                            </div>
-                            <div class="product-parice text-center">
-                                <span>$62.00</span>
-                            </div>
-                            <div class="star text-center">
-                                <span><i class="fab fa-instagram"></i></span>
-                                <span><i class="fab fa-twitter"></i></span>
-                                <span><i class="fab fa-facebook-f"></i></span>
-                                <span><i class="fab fa-linkedin-in"></i></span>
-                                <span><i class="fab fa-pinterest-p"></i></span>
-                            </div>
-                            <div class="buy-button text-center">
-                                <button class="btn btn-info">submit</button>                                
-                            </div>
-                        </div>
-
-                        <div class="product-item">
-                            <div class="product-img">
-                                <img src="img/313107650_486295676795926_8611757061258061582_n.jpg" alt="">
-                            </div>
-                            <div class="product-tital text-center">
-                                <h2 class="mt-3">srabon mozumder</h2>
-                                <p>A software engineer is a person who applies the principles of software engineering to design, develop</p>
-                            </div>
-                            <div class="product-parice text-center">
-                                <span>$202.00</span>
-                            </div>
-                            <div class="star text-center">
-                                <span><i class="fab fa-instagram"></i></span>
-                                <span><i class="fab fa-twitter"></i></span>
-                                <span><i class="fab fa-facebook-f"></i></span>
-                                <span><i class="fab fa-linkedin-in"></i></span>
-                                <span><i class="fab fa-pinterest-p"></i></span>
-                            </div>
-                            <div class="buy-button text-center">
-                                <button class="btn btn-info">submit</button>                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-
-
         <!-- ////services//// -->
         <section class="untree_co-section-area">
             <div class="container">
@@ -1051,6 +908,100 @@
                 </div>
             </div>
         </div>
+
+     <!-- /////Things, we have achieved section start///// -->
+     <section class="funfact-main-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-8">
+                    <div class="funfact-title">
+                        <h3 class="mb-3">Things, we have achieved</h3>
+                        <p>We are happy to say that we have many happy customers in many areas, even outside of
+                            Bangladesh.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-count-number">
+                        <div class="funfact-img">
+                            <img src="img/preview.webp" alt="">
+                        </div>
+                        <div class="funfact-content">
+                            <h5>
+                                <div class="counter-icon">
+                                    <span class="counter-testing">3640</span>
+                                    <i class="fas fa-plus"></i>
+                                </div>
+
+                                <p class="mt-3">District Coverage</p>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-count-number">
+                        <div class="funfact-img">
+                            <img src="img/images.jpg" alt="">
+                        </div>
+                        <div class="funfact-content">
+                            <h5>
+                                <div class="counter-icon">
+                                    <span class="counter-testing">7600</span>
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                                <p class="mt-3">Country Reached</p>
+                            </h5>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-count-number">
+                        <div class="funfact-img">
+                            <img src="img/download-1.jpg" alt="">
+                        </div>
+                        <div class="funfact-content">
+                            <h5>
+                                <div class="counter-icon">
+                                    <span class="counter-testing">2200</span>
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                                <p class="mt-3">Team Members</p>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-count-number">
+                        <div class="funfact-img">
+                            <img src="img/download.jpg" alt="">
+                        </div>
+                        <div class="funfact-content">
+                            <h5>
+                                <div class="counter-icon">
+                                    <span class="counter-testing">8000</span>
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                                <p class="mt-3">Subscribers</p>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /////Things, we have achieved section end///// -->
+
+
+
+
         <!--///Happy Clients//  -->
         <div class="Clients-section bg-light">
             <div class="container">
@@ -1331,6 +1282,8 @@
 
 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
             <script src="js/owl.carousel.min.js"></script>
             <script src="js/main.js"></script>
             <script src="js/bootstrap.min.js"></script>
