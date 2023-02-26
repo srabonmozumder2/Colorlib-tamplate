@@ -1352,7 +1352,24 @@ button.icon {
 }
 
 /* //////dropdown----2 end////// */
-
+.footer-bottm-top{
+  position: relative;
+}
+.footer-bottm-top a.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 35px;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(236, 152, 26, 0.728);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 4px;
+  z-index: 1;
+}
 
 
 @media screen and (max-width: 991px) {

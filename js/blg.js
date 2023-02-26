@@ -52,9 +52,9 @@ $(".my-dropdown").click(function(){
     console.log($(this).children('ul'))
     let dropdLink = $(this).children('ul');
     $(dropdLink).slideToggle(300);
-   $(".inner").click(function(){
-    $(".main").slideToggle(300);
-   });
+//    $(".inner").click(function(){
+//     $(".main").slideToggle(300);
+//    });
    });
 
 

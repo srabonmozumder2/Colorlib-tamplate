@@ -467,6 +467,8 @@ button.icon {
     padding: 12px;
     width: 100%;
     border-radius: 5px;
+    outline: none;
+    color: white;
 }
 
 /* .form-control:focus {
@@ -733,8 +735,9 @@ button.icon {
     position: absolute;
     z-index: 1;
     width: 95%;
+    height: 40%;
     margin: auto;
-    bottom: 40px;
+    bottom: 30px;
     left: 0;
     right: 0;
 }
@@ -775,9 +778,11 @@ input.follow-by-email-address {
     padding: 12px;
     position: relative;
     background-color: transparent;
-    border: 1px solid white;
+    border: 1.5px solid white;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    outline: none;
+    color: white;
 }
 .footer-email-inner form{
     display: flex;
@@ -831,7 +836,7 @@ span.bt-footer i {
 /* ///footer area startr/// */
 .footer-Navagation {
     background-color: #f1eded;
-    padding: 100px 0px;
+    padding: 80px 0px;
 }
 .widget ul {
     gap: 10px;
@@ -878,10 +883,13 @@ span.bt-footer i {
     transition: all 0.4s ease 0s;
     transform: scale(0.9);
 }
+.contact-location h5{
+    font-size: 15px;
+}
 .Navagation-list ul a {
     color: #666666;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
 }
 .Navagation-list ul a:hover {
@@ -948,6 +956,24 @@ span.bt-footer i {
     font-weight: 900;
 }
 /* ////slider-end.////// */
+.footer-bottm-top{
+    position: relative;
+}
+.footer-bottm-top a.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 35px;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(236, 152, 26, 0.728);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 4px;
+    z-index: 1;
+}
 /* /////////////////////////////////// */
 
 /* //Responsive/// */
