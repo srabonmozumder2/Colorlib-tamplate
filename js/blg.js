@@ -17,12 +17,11 @@ $(document).ready(function(){
         $(".mobile-responsive").removeClass("show");
       });
   });
-
   $('.hero-slider').owlCarousel({
     loop: true,
-    // autoplay:true,
-    // autoplayTimeout: 2000,
-    // responsiveClass:true,
+    autoplay:true,
+    autoplayTimeout: 2000,
+    responsiveClass:true,
     // autoplayHoverPause:true,
     navSpeed:true,
     dots: true,
@@ -48,22 +47,14 @@ $(document).ready(function(){
     }
   });
 
+
 $(".my-dropdown").click(function(){
     console.log($(this).children('ul'))
     let dropdLink = $(this).children('ul');
     $(dropdLink).slideToggle(300);
-//    $(".inner").click(function(){
-//     $(".main").slideToggle(300);
-//    });
+   $(".inner").click(function(){
+    $(".main").slideToggle(300);
+   });
    });
 
-// ///////////////////////
-
-  $('.magnific-active').magnificPopup({
-    type: 'image',
-    delegate: 'a',
-    gallery: {
-        enabled: true
-      },
-  });
 

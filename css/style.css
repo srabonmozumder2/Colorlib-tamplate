@@ -19,7 +19,7 @@ img {
 
 .site-navigation {
   width: 100%;
-  top: -100%;  
+  top: -100%;
   position: relative;
   margin-top: -12px;
   z-index: 999;
@@ -49,6 +49,7 @@ img {
   background: #22c9f370;
   transition: width .5s;
 }
+
 .navigation-menu ul li:hover::after {
   margin-top: 3px;
   width: 100%;
@@ -100,7 +101,8 @@ li.dropdown div.dropdown-content a:hover {
 .main-dropdown li:hover {
   background-color: rgb(240, 238, 238);
 }
-.main-dropdown ul{
+
+.main-dropdown ul {
   padding-left: 0;
   background-color: #e9dcdc9e;
   position: absolute;
@@ -180,58 +182,72 @@ li.dropdown div.dropdown-content a:hover {
   background-color: #999;
   color: white;
 }
+
 /* ////moddal start/// */
-.modal-content{
+.modal-content {
   margin-top: 100px;
 }
-.main-modal-area{
+
+.main-modal-area {
   display: flex;
   gap: 10px;
   align-items: center;
 }
+
 .main-modal-area .btn-primary {
   border-radius: 25px;
   padding: 8px 20px;
   margin-top: -18px;
 }
-.modal-footer .btn-success{
+
+.modal-footer .btn-success {
   border-radius: 25px;
   padding: 8px 17px;
   margin-top: 15px;
   background-color: #96bb7c;
   border: none;
 }
-.modal-header{
+
+.modal-header {
   border-bottom: none;
 }
-.modal-footer{
+
+.modal-footer {
   border-top: none;
 }
-.information-form{
+
+.information-form {
   margin-top: 30px;
 }
-input.form-control{
+
+input.form-control {
   border: 1px solid rgba(189, 183, 183, 0.132);
   border-radius: 3px;
 }
-input.form-control:focus{
+
+input.form-control:focus {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 3px;
 }
-select.form-control{
+
+select.form-control {
   border-radius: 3px;
   border: 1px solid rgba(198, 194, 194, 0.158);
 }
-select.form-control:focus{
+
+select.form-control:focus {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 3px;
 }
+
 .information-form label {
   font-size: 13px;
   font-weight: 600;
 }
+
 div#modal-heading {
   height: 20px;
   width: 100%;
 }
+
 /* ////moddal end/// */
 
 
@@ -320,6 +336,7 @@ div#modal-heading {
   right: 15px;
   top: 10px;
 }
+
 .owl-nav div {
   background-color: rgba(211, 205, 205, 0.372);
   display: flex;
@@ -329,6 +346,7 @@ div#modal-heading {
   width: 40px;
   border-radius: 50%;
 }
+
 /* /////site-section start///// */
 .img-area img:hover {
   transform: scale(0.5);
@@ -660,10 +678,11 @@ p {
 }
 
 /* <!-- ////services start//// --> */
-.untree_co-section-area{
+.untree_co-section-area {
   padding: 60px 0px;
   position: relative;
 }
+
 .untree_co-section-area::before {
   content: "";
   position: absolute;
@@ -677,6 +696,7 @@ p {
   height: 568px;
   background-size: cover;
 }
+
 .services-icon {
   border: 1px solid rgb(197, 192, 192);
   padding: 30px 40px;
@@ -719,7 +739,8 @@ p {
   padding: 70px 0;
   position: relative;
 }
-.untree_co-section::before{
+
+.untree_co-section::before {
   content: "";
   position: absolute;
   bottom: -5px;
@@ -815,35 +836,43 @@ p {
   padding-bottom: 70px;
   padding-top: 80px;
 }
-.funfact-img img{
+
+.funfact-img img {
   width: 100px;
   height: 100px;
 }
+
 .funfact-img {
   max-width: 70px;
   max-height: 70px;
   margin: auto;
 }
+
 .funfact-content {
   text-align: center;
 }
+
 .funfact-title p {
   margin-bottom: 45px;
 }
+
 .single-count-number {
   background: #dddfe0;
   border-radius: 8px;
   padding: 30px;
   transition: all ease 0.9s;
 }
+
 .single-count-number:hover {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
   transition: all ease 0.5s;
 }
+
 .counter-icon i {
   font-size: 18px;
 }
+
 .counter-icon {
   display: flex;
   justify-content: center;
@@ -851,6 +880,7 @@ p {
   gap: 7px;
   margin-top: 30px;
 }
+
 .funfact-content h5 {
   font-weight: 800;
   font-size: 31px;
@@ -858,6 +888,7 @@ p {
   color: #2ebdb1;
   margin-bottom: 5px;
 }
+
 .funfact-content p {
   font-weight: 600;
   font-size: 20px;
@@ -865,10 +896,12 @@ p {
   color: #333d4d;
   height: 32px;
 }
+
 .funfact-title h3 {
   font-size: 40px;
   font-weight: 700;
 }
+
 /* <!-- /////Things, we have achieved section end///// --> */
 
 
@@ -953,11 +986,12 @@ p {
 }
 
 /* <!--///Happy Clients End//  --> */
-.meadia-section-area{
+.meadia-section-area {
   padding: 80px 0;
   position: relative;
 }
-.Medium-section::before{
+
+.Medium-section::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1257,6 +1291,7 @@ p {
   transform: scale(1.6);
   transition: 0.5s;
 }
+
 .mobile-responsive {
   background-color: black;
   width: 50%;
@@ -1282,6 +1317,7 @@ p {
 .dropdown-contentt {
   background-color: #939393;
 }
+
 .close-bar {
   width: 25px;
   height: 25px;
@@ -1294,6 +1330,7 @@ p {
   margin-left: 10px;
   margin-top: 10px;
 }
+
 .show {
   right: 0;
 }
@@ -1369,6 +1406,7 @@ button.icon {
     left: 13px;
     top: 40px;
   }
+
   .untree_co-section-area::before {
     content: "";
     position: absolute;
@@ -1381,7 +1419,7 @@ button.icon {
     width: 100%;
     height: 888px;
     background-size: cover;
-}
+  }
 
 }
 
@@ -1393,47 +1431,41 @@ button.icon {
   .Clients-address {
     gap: 15px;
   }
-  /* .Medium-section::before {
+
+  .untree_co-section-area::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    background-image: url(/img/blurry-gradient-haikei.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1011px;
+    background-size: cover;
+  }
+
+  .untree_co-section-area::before {
     content: "";
     position: absolute;
     top: 0;
     right: 0;
     z-index: -1;
-    background-image: url(/img/blob-scene-haikei.png);
+    background-image: url(../img/circle-scatter-haikei.png);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 520px;
+    height: 1005px;
     background-size: cover;
-} */
- .untree_co-section-area::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  z-index: -1;
-  background-image: url(/img/blurry-gradient-haikei.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 1011px;
-  background-size: cover;
- }
- .untree_co-section-area::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -1;
-  background-image: url(../img/circle-scatter-haikei.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 1005px;
-  background-size: cover;
+  }
 }
+@media screen and (max-width:575px) {
+  .navigation-menubar-inner ul ul ul {
+      margin-left: -135px;
+      margin-top: -30px;
+  }
 }
-
 @media screen and (max-width: 425px) {
   .content h2 {
     font-size: 25px;
