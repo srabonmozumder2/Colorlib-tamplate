@@ -124,6 +124,83 @@ li.dropdown div.dropdown-content a:hover {
 }
 
 /* /////Dropdown Menu END//// */
+/* ////contact start/// */
+.modal-content {
+    margin-top: 100px;
+  }
+  
+  .main-modal-area {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .main-modal-area .btn-primary {
+    border-radius: 25px;
+    padding: 8px 20px;
+    margin-top: -18px;
+  }
+  
+  .modal-footer .btn-success {
+    border-radius: 25px;
+    padding: 8px 17px;
+    margin-top: 15px;
+    background-color: #96bb7c;
+    border: none;
+  }
+  
+  .modal-header {
+    border-bottom: none;
+  }
+  
+  .modal-footer {
+    border-top: none;
+  }
+  
+  .information-form {
+    margin-top: 30px;
+  }
+  
+  input.form-control {
+    border: 1px solid rgba(189, 183, 183, 0.132);
+    border-radius: 3px;
+  }
+  
+  input.form-control:focus {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 3px;
+  }
+  
+  select.form-control {
+    border-radius: 3px;
+    border: 1px solid rgba(198, 194, 194, 0.158);
+  }
+  
+  select.form-control:focus {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 3px;
+  }
+  
+  .information-form label {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  
+  div#modal-heading {
+    height: 20px;
+    width: 100%;
+  }
+  .main-modal-area button {
+    margin-top: -5px;
+    color: rgb(114, 110, 110);
+    font-weight: 700;
+    margin-left: -20px;
+}
+.btn-check:focus+.btn, .btn:focus{
+    box-shadow: none;
+}
+.btn-primary{
+    color: white;
+}
+  /* ////contact moddal end/// */
 /* ///////mobile-responsive Start///// */
 .navigation-menubar-inner a {
     font-weight: 700;
@@ -971,7 +1048,7 @@ span.bt-footer i {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 5px;
     z-index: 1;
 }
 /* /////////////////////////////////// */

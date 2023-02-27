@@ -20,9 +20,9 @@ $(document).ready(function(){
 
   $('.hero-slider').owlCarousel({
     loop: true,
-    // autoplay:true,
-    // autoplayTimeout: 2000,
-    // responsiveClass:true,
+    autoplay:true,
+    autoplayTimeout: 2000,
+    responsiveClass:true,
     // autoplayHoverPause:true,
     navSpeed:true,
     dots: true,
