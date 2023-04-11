@@ -162,7 +162,7 @@ li.dropdown div.dropdown-content a:hover {
 }
 
 input.form-control {
-  border: 1px solid rgba(189, 183, 183, 0.132);
+  /* border: 1px solid rgba(189, 183, 183, 0.132); */
   border-radius: 3px;
 }
 
@@ -172,7 +172,7 @@ input.form-control:focus {
 
 select.form-control {
   border-radius: 3px;
-  border: 1px solid rgba(198, 194, 194, 0.158);
+  /* border: 1px solid rgba(198, 194, 194, 0.158); */
 }
 
 select.form-control:focus {
@@ -1442,6 +1442,7 @@ button.icon {
   align-items: center;
   text-decoration: none;
   border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   z-index: 1;
 }
 
